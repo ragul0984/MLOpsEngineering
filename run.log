@@ -1,0 +1,31 @@
+2026-04-21 23:49:52,967 - INFO - Job started
+2026-04-21 23:49:52,970 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:49:52,983 - ERROR - Error: Missing 'close' column
+2026-04-21 23:52:34,616 - INFO - Job started
+2026-04-21 23:52:34,627 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:52:34,648 - ERROR - Error: Missing 'close' column
+2026-04-21 23:54:11,011 - INFO - Job started
+2026-04-21 23:54:11,013 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:54:11,031 - ERROR - Error: Missing 'close' column
+2026-04-21 23:54:36,420 - INFO - Job started
+2026-04-21 23:54:36,425 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:54:36,473 - ERROR - Error: Missing 'close' column
+2026-04-21 23:55:00,724 - INFO - Job started
+2026-04-21 23:55:00,724 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:55:00,756 - ERROR - Error: Missing 'close' column
+2026-04-21 23:56:10,955 - INFO - Job started
+2026-04-21 23:56:10,955 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:56:11,011 - ERROR - Error: Missing 'close' column
+2026-04-21 23:57:42,627 - INFO - Job started
+2026-04-21 23:57:42,627 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-21 23:57:42,679 - ERROR - Error: Missing 'close' column
+2026-04-22 00:01:43,291 - INFO - Job started
+2026-04-22 00:01:43,291 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 00:01:43,402 - INFO - Rows loaded: 10000
+2026-04-22 00:01:43,413 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 122, 'seed': 42, 'status': 'success'}
+2026-04-22 00:01:43,413 - INFO - Job completed successfully
+2026-04-22 00:02:08,386 - INFO - Job started
+2026-04-22 00:02:08,388 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 00:02:08,458 - INFO - Rows loaded: 10000
+2026-04-22 00:02:08,470 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 83, 'seed': 42, 'status': 'success'}
+2026-04-22 00:02:08,470 - INFO - Job completed successfully
