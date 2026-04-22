@@ -29,3 +29,8 @@
 2026-04-22 00:02:08,458 - INFO - Rows loaded: 10000
 2026-04-22 00:02:08,470 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 83, 'seed': 42, 'status': 'success'}
 2026-04-22 00:02:08,470 - INFO - Job completed successfully
+2026-04-22 09:40:31,906 - INFO - Job started
+2026-04-22 09:40:31,906 - INFO - Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-04-22 09:40:31,955 - INFO - Rows loaded: 10000
+2026-04-22 09:40:31,978 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 72, 'seed': 42, 'status': 'success'}
+2026-04-22 09:40:31,978 - INFO - Job completed successfully

@@ -33,7 +33,7 @@ def main():
     try:
         logging.info("Job started")
 
-        # ---- Load config ----
+        
         if not os.path.exists(args.config):
             raise Exception("Config file not found")
 
@@ -53,7 +53,7 @@ def main():
 
         logging.info(f"Config loaded: {config}")
 
-        # ---- Load dataset ----
+        
         if not os.path.exists(args.input):
             raise Exception("Input file not found")
 
@@ -70,13 +70,13 @@ def main():
 
         logging.info(f"Rows loaded: {len(df)}")
 
-        # ---- Rolling mean ----
+       
         df["rolling_mean"] = df["close"].rolling(window=window).mean()
 
-        # ---- Signal ----
+        
         df["signal"] = (df["close"] > df["rolling_mean"]).astype(int)
 
-        # Drop NaN rows from rolling
+        
         df = df.dropna()
 
         rows_processed = len(df)
